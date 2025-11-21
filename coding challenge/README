@@ -1,0 +1,33 @@
+What I Built
+Backend (Express.js + PostgreSQL)
+The backend artifact contains a complete REST API server with:
+
+Authentication system with JWT tokens and bcrypt password hashing
+Role-based access control for Admin, User, and Store Owner
+Complete CRUD operations for users, stores, and ratings
+Input validation matching all specified requirements
+Database schema with proper constraints and indexes
+Default admin account auto-created on startup
+
+Frontend (React + Tailwind CSS)
+The frontend artifact contains a complete React application with:
+
+Login/Register pages with real-time validation
+Admin Dashboard with statistics, user management, store management, filtering, and sorting
+User Dashboard with store browsing, searching, and interactive star ratings
+Store Owner Dashboard with average rating display and user ratings list
+Password change functionality for all user roles
+Responsive design using Tailwind CSS
+
+Setup Instructions
+The third artifact provides complete setup documentation including installation steps, environment configuration, database setup, and API endpoint reference.
+Key Features Implemented
+RequirementStatusSingle login system for all roles✅Admin: Dashboard with stats✅Admin: Add users/stores✅Admin: Filter & sort tables✅User: Registration with validation✅User: Rate stores 1-5✅User: Modify ratings✅Store Owner: View ratings & average✅All validations (name, email, password, address)✅Sorting on all tables✅
+Quick Start
+
+Set up PostgreSQL and create the database
+Copy the backend code into server.js, configure .env
+Run npm install and npm run dev for backend
+Create React app, add Tailwind, copy frontend code
+Run npm start for frontend
+Login with admin@system.com / Admin@123
